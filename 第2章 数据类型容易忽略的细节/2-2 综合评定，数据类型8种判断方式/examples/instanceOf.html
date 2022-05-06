@@ -1,0 +1,26 @@
+<!--
+ * @Description: 
+ * @version: 
+ * @Author: cy
+ * @Date: 2022-04-29 11:37:00
+ * @LastEditors: cy
+ * @LastEditTime: 2022-04-29 11:41:20
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <iframe src="./instanceOf02.html" frameborder="0"></iframe>
+    <script>
+        var frame = window.frames[0];
+        var isInstanceOf = [] instanceof frame.Array;
+        console.log('frame.Array', frame.Array);
+        console.log('instanceOf', isInstanceOf);
+    </script>
+</body>
+</html>
